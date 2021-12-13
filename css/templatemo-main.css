@@ -140,15 +140,36 @@ a:hover { color: #FF0; }
   width: 100%;
   min-height: 100vh;
   background-size: cover;
+
 }
 
+.parallax-contac {
+  width: 100%;
+  min-height: 100vh;
+  background-size: cover;
+  
+}
 
 .baner-content {
   padding-top: 30vh;
   text-align: center;
   background-image: url(../img/1st-section.jpg);
 }
-
+.baner-cont {
+  padding-top: 30vh;
+  text-align: center;
+  background-image: url(../img/palenque.jpg);
+}
+.baner-cañon {
+  padding-top: 30vh;
+  text-align: center;
+  background-image: url(../img/cañon3.jpg);
+}
+.baner-la {
+  padding-top: 30vh;
+  text-align: center;
+  background-image: url(../img/lagos3.jpg);
+}
 .baner-content h1 {
   margin-top: 0px;
   font-size: 128px;
@@ -188,7 +209,41 @@ a:hover { color: #FF0; }
   background-size: cover;
   background-position: center center;
 }
-
+  .service-palenque {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15vh;
+    background-image: url(../img/palenque1.jpg);
+    background-attachment: fixed;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center center;
+}
+.service-cañon {
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 15vh;
+  background-image: url(../img/cañon1.jpg);
+  background-attachment: fixed;
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center center;
+}
+.service-la {
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 15vh;
+  background-image: url(../img/lagos1.jpg);
+  background-attachment: fixed;
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center center;
+}
+.service-palenque .left-text h4 {
+  font-size: 24px;
+  font-weight: 500;
+  color: rgb(0, 0, 0);
+}
 .service-content .left-text h4 {
   font-size: 24px;
   font-weight: 500;
@@ -247,7 +302,18 @@ h4, .h4 {
   padding-top: 20vh;
   background-image: url(../img/3rd-section.jpg);
 }
-
+.projects-palenque {
+  padding-top: 20vh;
+  background-image: url(../img/palenque2.jpg);
+}
+.projects-cañon {
+  padding-top: 20vh;
+  background-image: url(../img/cañon1.jpg);
+}
+.projects-la{
+  padding-top: 20vh;
+  background-image: url(../img/lagos2.jpg);
+}
 .projects-content .item img {
   width: 100%;
 }
@@ -370,10 +436,27 @@ section {
   padding-top: 16vh;
   background-image: url(../img/5th-section.jpg);
 }
-
+.contact-palenque {
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 16vh;
+  background-image: url(../img/Palenque3.jpg);
+}
+.contact-cañon{
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 16vh;
+  background-image: url(../img/cañon4.jpg);
+}
+.contact-la{
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 16vh;
+  background-image: url(../img/lagos.jpg);
+}
 .contact-form {
   background-color: rgba(0, 0, 0, 0.5);
-  padding: 30px 25px;
+  padding: 40px 25px;
   margin-bottom: 30px;
 }
 
